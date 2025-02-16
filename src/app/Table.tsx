@@ -11,7 +11,7 @@ const Table = ({
 }:TableProps) => {
 
   const hasProps = exchangeRate.hasOwnProperty(currency)
-  console.log('userCourses', userCourses)
+  
   if (hasProps) {
     return (
       <table key={1} className="w-3/4 border-collapse font-sans">
